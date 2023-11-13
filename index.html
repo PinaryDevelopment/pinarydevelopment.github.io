@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RC0FKC9HY6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-RC0FKC9HY6');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pinary Development</title>
+    <link rel="icon" href="/assets/favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poly&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poly&family=Stalemate&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Poly', serif;
+        }
+
+        .script {
+            font-family: 'Stalemate', cursive;
+        }
+
+        .underline {
+            text-decoration: underline dotted;
+        }
+
+        .italics {
+            font-style: italic;
+        }
+
+        body {
+            display: flex;
+            height: 100vh;
+            margin: 1em 0 0 0;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #logo {
+            width: 21.875em;
+        }
+
+        h1 {
+            margin: 2em 0 0 0;
+        }
+
+        h3 {
+            margin: 0 0 1em 0;
+            font-size: 40px;
+            margin-block-start: -15px;
+        }
+
+        .portfolio {
+            display: flex;
+            width: 97vw;
+            justify-content: space-around;
+        }
+
+        .p1 {
+            font-size: 2em;
+            margin: 1em 0 0;
+        }
+
+        .p2 {
+            font-size: 1.25em;
+            margin: 0.5em 0 0;
+        }
+    </style>
 </head>
 <body>
-    Coming soon.
+    <img id="logo" src="/assets/logo.svg" />
+
+    <h1><span class="underline italics">Your</span> software</h1>
+    <h3 class="script">done your way</h3>
+
+    <div class="portfolio">
+        <section>
+            <h5>Websites</h5>
+            <img />
+        </section>
+
+        <section>
+            <h5>Desktop apps</h5>
+            <img />
+        </section>
+
+        <section>
+            <h5>Widgets</h5>
+            <img />
+        </section>
+    </div>
+
+    <ul>
+        <li>Need a website to expose your brand to the world?</li>
+        <li>Looking to automate one of your monotonous workflows to free up your employees, enabling them to maximize their time at work?</li>
+        <li>Want a proof-of-concept application, to test out the marketability of an idea?</li>
+    </ul>
+    <p class="p1">Let's chat!</p>
+    <p class="p2">Reach out at <span class="underline" title="hello@pinarydevelopment.com">hello at pinarydevelopment dot com</span> to drive your idea to reality.</p>
 </body>
 </html>

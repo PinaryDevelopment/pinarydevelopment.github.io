@@ -1,0 +1,16 @@
+{
+  "name": "pinarydevelopment.github.io",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "python3 -m http.server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PinaryDevelopment/pinarydevelopment.github.io.git"
+  },
+  "author": "Pinary Development LLC",
+  "bugs": {
+    "url": "https://github.com/PinaryDevelopment/pinarydevelopment.github.io/issues"
+  },
+  "homepage": "https://pinarydevelopment.com"
+}
